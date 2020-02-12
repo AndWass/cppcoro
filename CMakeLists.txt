@@ -33,6 +33,8 @@ ${CMAKE_CURRENT_LIST_DIR}/include/cppcoro/detail/any.hpp
 ${CMAKE_CURRENT_LIST_DIR}/include/cppcoro/detail/sync_wait_task.hpp
 ${CMAKE_CURRENT_LIST_DIR}/include/cppcoro/detail/unwrap_reference.hpp
 ${CMAKE_CURRENT_LIST_DIR}/include/cppcoro/detail/lightweight_manual_reset_event.hpp
+${CMAKE_CURRENT_LIST_DIR}/include/cppcoro/detail/manual_lifetime.hpp
+${CMAKE_CURRENT_LIST_DIR}/include/cppcoro/detail/remove_rvalue_reference.hpp
 )
 
 set(headers
