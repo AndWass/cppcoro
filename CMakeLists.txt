@@ -100,13 +100,9 @@ include(GNUInstallDirs)
 target_include_directories(cppcoro PUBLIC
     $<BUILD_INTERFACE:${CMAKE_CURRENT_LIST_DIR}/include>
     $<INSTALL_INTERFACE:${CMAKE_INSTALL_INCLUDEDIR}>
-    )
+)
 
 target_compile_features(cppcoro PUBLIC cxx_std_20)
-
-if(MSVC)
-    target_compile_options(cppcoro PUBLIC "/await")
-endif()
 
 install(
     TARGETS cppcoro
