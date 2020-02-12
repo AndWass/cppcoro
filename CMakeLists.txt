@@ -48,6 +48,7 @@ ${CMAKE_CURRENT_LIST_DIR}/include/cppcoro/broken_promise.hpp
 ${CMAKE_CURRENT_LIST_DIR}/include/cppcoro/cancellation_registration.hpp
 ${CMAKE_CURRENT_LIST_DIR}/include/cppcoro/cancellation_source.hpp
 ${CMAKE_CURRENT_LIST_DIR}/include/cppcoro/cancellation_token.hpp
+${CMAKE_CURRENT_LIST_DIR}/include/cppcoro/coroutine.hpp
 ${CMAKE_CURRENT_LIST_DIR}/include/cppcoro/task.hpp
 ${CMAKE_CURRENT_LIST_DIR}/include/cppcoro/sequence_barrier.hpp
 ${CMAKE_CURRENT_LIST_DIR}/include/cppcoro/sequence_traits.hpp
